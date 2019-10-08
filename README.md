@@ -31,7 +31,7 @@ We split into three initial development areas
 * Database
 
 
-I developed the server code including the fetch requests on the client side. To test them independantly of the front-end code I made a simple test html page to initiate fixed hardcoded requests from the client side on a button click. 
+I developed the server code including the fetch requests on the client side. To test them independantly of the front-end code I made a simple test html page to initiate fixed hardcoded requests from the client side on a button click. This is available on the /indextest endpoint
 
 On the server side the server code listened for the fetch requests and using methods defined in app.js responded appropriately.
 
