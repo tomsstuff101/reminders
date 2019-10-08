@@ -21,13 +21,14 @@ Team spent several hours agreeing how the app should work from the following per
 
 * What data should be set for: addReminder, readReminder, deleteReminder, editReminder
 
+
 We split into three initial development areas
 
-Server
+* Server
 
-Front-end
+* Front-end
 
-Database
+* Database
 
 
 I developed the server code including the fetch requests on the client side. To test them independantly of the front-end code I made a simple test html page to initiate fixed hardcoded requests from the client side on a button click. 
