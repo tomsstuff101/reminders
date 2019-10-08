@@ -1,25 +1,53 @@
 # Reminder App
 
+Developed as a team of three in 4 days, to grow skills in Node.js, Express.js and MYSQL
 
-This
+The app allows individual users to sign on with adashbord showing their list of reminders and competion dealinf dataes.
 
+Remonders can be edited and deleted and the user can sign out.
+
+
+#### Developement Process
+Team spent several hours agreening how the app should work from the following perspectives
+Endpoints including:
+    /register  /signin  /getreminder  /addreminder   /deletereminder   /editremionder   /indextest
+User journey
+User UI
+Database tables and query types
+What dta should be set for
+addReminder, readReminder, deleteReminder, editReminder
+
+We split into three initial development areas
+Server
+Front-end
+Database
+
+I developed the server code includiong the fetch requests on the client side. To test them independantly of the front-end code I made a simple test html page to initiate fixed hardcoded reqstest from the client side on a button click. 
+On the server side the server code listened for the fetch requests and using methods defined in app.js responded appropriatly.
+
+Stefan created the database and queires , and the sign in front page.
+Duncan created the dashboard page, with dynamically created DOM components for the list and acted as the version master,  for all merges from PR's.
+
+Once the intiall code base was formed and modules tested, we worked in a code pairing mannor to ensure all the code smoothly worked across the different parts and iron out ant wrinckles.
+
+We also polished up the UI with improved CSS
 
 
 
 #### Sign-in / Sign-up
 
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="1000px" height="auto">
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="800px" height="auto">
 
 
 
 #### New user
 
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-signin.png" alt="register new user" width="1000px" height="auto">
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-signin.png" alt="register new user" width="800px" height="auto">
 
 
 #### Desktop Dashboard
 
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-desktop.png" alt="dashboard for desktop" width="1000px" height="auto">
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-desktop.png" alt="dashboard for desktop" width="800px" height="auto">
 
 
 
@@ -135,8 +163,6 @@ and the sign-in screen should be displyed with a number of users e.g. 10 shown
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="500px" height="auto">
 
 
-
-reminder-mobile
 
 
 
