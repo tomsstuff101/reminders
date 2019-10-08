@@ -26,7 +26,7 @@ Reminders can be edited and deleted and the user can sign out.
 
 #### Mobile Dashboard
 
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="400px" height="auto">
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="300px" height="auto">
 
 
 
