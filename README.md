@@ -36,7 +36,7 @@ Reminders can be edited and deleted and the user can sign out.
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="300px" height="auto">
 
 ---
-<br><br>
+<br>
 
 
 ## Developement Process
@@ -75,7 +75,7 @@ Once the intiall code base was formed and modules tested, we worked in a code pa
 We also polished up the UI with improved CSS.
 
 ---
-<br><br>
+<br>
 
 
 ## Setup for localhost testing
