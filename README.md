@@ -83,11 +83,12 @@ We also polished up the UI with improved CSS.
 * install npm dependances
 
 ```
-$ npm install express
-$ npm install body-parser
-$ npm install mysql
+$ npm install
 
 ```
+Now check the package.json that  express, body-parser and mysql are installed.
+
+Note that nodemon is also installed for debuggin purposes.
 
 * check if mysql is installed
 
