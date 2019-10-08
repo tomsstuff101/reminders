@@ -88,7 +88,7 @@ $ npm install
 ```
 Now check the package.json that  express, body-parser and mysql are installed.
 
-Note that nodemon is also installed for debuggin purposes.
+Note that nodemon is also installed for debugging purposes.
 
 * check if mysql is installed
 
