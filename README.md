@@ -7,6 +7,29 @@ The app allows individual users to sign on with a dashboard showing their list o
 Reminders can be edited and deleted and the user can sign out.
 
 
+#### Sign-in / Sign-up
+
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="800px" height="auto">
+
+
+
+#### New user
+
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-signin.png" alt="register new user" width="800px" height="auto">
+
+
+#### Desktop Dashboard
+
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-desktop.png" alt="dashboard for desktop" width="800px" height="auto">
+
+
+
+#### Mobile Dashboard
+
+<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="400px" height="auto">
+
+
+
 #### Developement Process
 Team spent several hours agreeing how the app should work from the following perspectives
 
@@ -41,29 +64,6 @@ Duncan created the dashboard page, with dynamically created DOM components for t
 Once the intiall code base was formed and modules tested, we worked in a code pairing mannor to ensure all the code smoothly worked across the different parts and iron out any wrinkles.
 
 We also polished up the UI with improved CSS
-
-
-
-#### Sign-in / Sign-up
-
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="800px" height="auto">
-
-
-
-#### New user
-
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-signin.png" alt="register new user" width="800px" height="auto">
-
-
-#### Desktop Dashboard
-
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-desktop.png" alt="dashboard for desktop" width="800px" height="auto">
-
-
-
-#### Mobile Dashboard
-
-<img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="400px" height="auto">
 
 
 
