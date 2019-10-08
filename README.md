@@ -72,9 +72,9 @@ Duncan created the dashboard page, with dynamically created DOM components for t
 
 Once the intiall code base was formed and modules tested, we worked in a code pairing mannor to ensure all the code smoothly worked across the different parts and iron out any wrinkles.
 
-We also polished up the UI with improved CSS
+We also polished up the UI with improved CSS.
 
-
+<br><br>
 
 ## Setup for localhost testing
 
