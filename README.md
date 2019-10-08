@@ -12,7 +12,7 @@ Reminders can be edited and deleted and the user can sign out.
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-register.png" alt="sign in and sign up" width="800px" height="auto">
 
 
-<br><br><br>
+<br><br>
 
 
 #### New user
@@ -20,7 +20,7 @@ Reminders can be edited and deleted and the user can sign out.
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-signin.png" alt="register new user" width="800px" height="auto">
 
 
-<br><br><br>
+<br><br>
 
 
 #### Desktop Dashboard
@@ -28,7 +28,7 @@ Reminders can be edited and deleted and the user can sign out.
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-desktop.png" alt="dashboard for desktop" width="800px" height="auto">
 
 
-<br><br><br>
+<br><br>
 
 
 #### Mobile Dashboard
@@ -36,7 +36,7 @@ Reminders can be edited and deleted and the user can sign out.
 <img src="https://github.com/tomsstuff101/reminders/blob/master/README-images/reminder-mobile.png" alt="dashboard for mobile" width="300px" height="auto">
 
 ---
-<br><br><br>
+<br><br>
 
 
 ## Developement Process
