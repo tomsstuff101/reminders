@@ -30,7 +30,7 @@ Reminders can be edited and deleted and the user can sign out.
 
 
 
-#### Developement Process
+## Developement Process
 Team spent several hours agreeing how the app should work from the following perspectives
 
 * Endpoints including:
@@ -67,7 +67,7 @@ We also polished up the UI with improved CSS
 
 
 
-### Setup for localhost testing
+## Setup for localhost testing
 
 * Git clone from Github
 
@@ -96,7 +96,7 @@ You should now have a mysql prompt i.e.
 
 ``` mysql > ```
 
-#### Crerate the database
+#### Create the database
 
 In the mysql prompt cut and past the schema.sql code ie.
 
@@ -151,6 +151,8 @@ mysql > SELECT * FROM users;
 +----+--------------+-----------------------+---------------------+
 
 ```
+
+#### Start up the app
 
 Open up another bash shell
 
