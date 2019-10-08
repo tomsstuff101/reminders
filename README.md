@@ -1,10 +1,8 @@
 # Reminder App
 
-Developed as a team of three in 4 days, to grow skills in Node.js, Express.js and MYSQL
+Developed as a team of three in 4 days, to grow skills in Node.js, Express.js and MYSQL.
 
-The app allows individual users to sign on with a dashboard showing their list of reminders and competion deadlines dates.
-
-Reminders can be edited and deleted and the user can sign out.
+The app allows individual users to sign on with a dashboard showing their list of reminders and competion deadlines dates. Reminders can be edited and deleted and the user can sign out.
 
 
 #### Sign-in / Sign-up
