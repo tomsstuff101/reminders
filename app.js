@@ -7,11 +7,13 @@ const { promisify } = require('util')
 // the mysql server
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "password1",
-    database: "reminder_app"
+    host: "remotemysql.com",
+    user: "fVnXjFUBLi",
+    password: "Azi55DCYzt",
+    database: "fVnXjFUBLi"
 })
+
+
 
 //  connection.query(' query passed here')  
 // is the non-promisified form
