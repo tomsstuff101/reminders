@@ -51,7 +51,7 @@ let sign_out=document.getElementById('sign-out')
 // Displaying the number of users on the splash page.
 
 const getTotal = async () => {
-    let data = await fetch("http://localhost:3019/total");
+    let data = await fetch("/total");
     let response = await data.json();
     numOfUser.textContent = response.total
 }

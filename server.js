@@ -7,6 +7,7 @@ const path = require('path')
 const { readReminder, isUserRegistered, addReminder, addUser, editReminder, deleteReminder,runTotal} = require('./app')
 
 const app = express()
+const port = process.env.PORT || 3019
 
 // define the path where the public files are. 
 // This has to be an absolute path
@@ -104,6 +105,6 @@ app.put("/editreminders", async (req,res) => {
 
 
 // setup basic URL where server exists
-app.listen(3019, () => {
-    console.log('listening to localhost:3019')
+app.listen(port, () => {
+    console.log(`listening to ${port}`)
 })
