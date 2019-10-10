@@ -7,10 +7,10 @@ const { promisify } = require('util')
 // the mysql server
 
 const connection = mysql.createConnection({
-    host: "remotemysql.com",
-    user: "fVnXjFUBLi",
-    password: "Azi55DCYzt",
-    database: "fVnXjFUBLi"
+    host: "put_your_remote_mysql.com_here",
+    user: "ABCD1234",
+    password: "WXYZ987",
+    database: "ABCD1234"
 })
 
 
