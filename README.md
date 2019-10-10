@@ -76,6 +76,154 @@ We also polished up the UI with improved CSS.
 <br>
 
 
+
+## Deploy Reminder app on Heroku and remotemysql.com
+
+TL;DR version
+
+1  Amend code to set the envronment from being localhost to Herokus environment, adding start scripts etc. Ensure that the app is loading up properly in Heroku. It won't function but should install without errors.
+
+2  Create a database in a mysql server. For the purposes of this demo app we use remotemysql.com.
+
+3 Add tables to the database. We used MySQL Workbench, connected to the remote dB and added the tables.
+
+4 Ammend the code (app.js in this case) so that the Mysql connection info correctly matches the remotemysql.com info ie database, username, password etc
+
+``` $ git push heroku master```
+
+The app should now function correctly
+
+#### Detailed version
+
+
+Befor startting I create a new branch called localhost as I want to have that as a seperate working branch
+
+```
+$ git branch localhost
+$ git checkout localhost
+$ git push origin localhost
+$ git checkout master
+```
+
+I also create a deploy banch
+
+```
+$ git branch deploy
+$ git checkout deploy
+
+```
+The code can now be ammended
+
+#### package.json
+
+Remove any "test" scripts and replace with
+```
+...,
+"scripts": {
+    "start": "node server.js"
+  },
+  ...
+
+```
+
+##### server.js
+create a Port environmental variable
+
+```
+// Pull in methods form app.js
+const { ......
+
+const app = express()
+const port = process.env.PORT || 3019
+
+// define the path ....
+
+```
+
+
+
+##### client.js
+
+Ensure that fetch endpoints on the public client side are relative NOT http://;ocalhos etc.
+For example 
+
+```
+
+// Sign-in function
+
+const signIn = async () => .....
+
+    let response = await fetch(`/signin?username=${username}`)
+
+    .....
+
+```
+
+You should be able to get teh app to deploy on Heroku at this pint, thou it wont function.
+
+```
+$ git checkout master
+$ git merge deploy
+
+$ git push heroku master
+
+```
+
+and follow the Heroku deploy link to check.
+
+
+
+##### Create remote SQL db
+
+Register on to remotemysql.com and click on 'databases' side tab.
+Click on 'create new database'
+
+You will now get a username,database name,password and server name.
+Keep this screen handy for copy and pasting
+
+<img src="https://github.com/tomsstuff101/reminders/blob/deploy/README-images/README-MYSQL-info/2%20dB%20created%20-%20copy%20info.jpg?raw=true" width="800" height="auto">
+<br>
+
+Using MySQLWorkbench create a new MySQL connection
+
+<img src="https://github.com/tomsstuff101/reminders/blob/deploy/README-images/README-MYSQL-info/3%20create%20a%20new%20db%20connection%20in%20MySqly%20Workbench.png?raw=true" width="800" height="auto">
+<br>
+
+Setup a new connection and copy and paste the remotesql data into the 'Setup New Connection' modal. Give it a usefull connection name. Port and default schema shoulod't need changing.
+
+<img src="https://github.com/tomsstuff101/reminders/blob/deploy/README-images/README-MYSQL-info/4%20setup%20a%20new%20connection%20using%20the%20dB%20info%20from%20remotemysql%20.png?raw=true" width="800" height="auto">
+<br>
+
+
+
+Once the dB has been created in remotemysql.com
+
+##### app.js
+
+
+```
+const connection = mysql.createConnection({
+    host: "remotemysql.com",
+    user: "ABCD1234",
+    password: "WXYZ987",
+    database: "ABCD1234"
+})
+
+
+```
+
+
+Now push to heroku and the app should function properly.
+
+```
+$ git push heroku master
+
+```
+
+---
+<br>
+
+
 ## Setup for localhost testing
 
 * Git clone from Github
